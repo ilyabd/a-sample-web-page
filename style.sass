@@ -1,0 +1,339 @@
+$green-color:#7AC483
+$darkgreybg:#3F3D4E
+$lightgreybg:#F2F1F8
+$lightgreytext:#FFF7E3
+
+/*///////////////header/////////////////////////*/
+/*header
+    height: 763px
+    background:
+        image:url(images/banner_background.jpg)
+        size:cover
+    .wrapper
+        width: 960px
+        margin: 0 auto
+        //background-color: pink
+        overflow: hidden
+        .logo
+            width: 30%
+            float: left
+            margin-top: 25px
+            color: $lightgreytext
+            font-size: 1.5rem
+            //&:after
+                content: ""
+                clear: both
+        nav
+            width: 70%
+            margin-top: 20px
+            float: left
+            box-sizing: border-box
+
+            //background-color: pink
+            //&:after
+                content: ""
+                clear: both
+
+            ul
+                list-style: none
+                width: 100%;
+                margin: 0
+                padding: 0
+                overflow: hidden
+                box-sizing: border-box
+                li
+                    width: 25%
+                    float: left
+                    //&+li
+                        padding-left: 15px
+                        padding-right: 0    
+                    a
+                        float: right
+                        display: block
+                        text-decoration: none
+                        font-size: (24rem/16)
+                        text-transform: capitalize
+                        color: $lightgreytext
+        h1
+            width: 620px
+            margin: 205px auto 0
+            font-size: 50px
+            font-weight: bold
+            color: $lightgreytext
+            &:first-letter
+                text-transform: capitalize
+        p 
+            width: 580px
+            margin: 30px auto
+            text-align: center
+            color: $lightgreytext
+            font-size: 1.5rem*/
+
+////////////////////////////////////
+/////////header/////////////////////
+////////////////////////////////////
+body
+    margin: 0
+    height: 2000px
+button[type=button]
+    border: none
+    height: 32px
+    width: 130px
+    color: $lightgreytext
+    text-align: center
+    border-radius: 16px
+    text-transform: capitalize
+    
+.btn-green
+    background-color: $green-color
+.btn-grey
+    background-color: rgba(250,250,250,0.35)
+.wrapper
+    //background-color: pink
+    width: 960px
+    margin: 0 auto
+    //overflow: hidden
+.clearfix
+    width: 100%
+    clear: both
+header
+    width: 100%
+    background-image: url(images/banner_background.jpg)
+    background-size: cover
+    background-position: top center
+    background-repeat: no-repeat
+    overflow: hidden
+    .logo
+        width: 30%
+        float: left
+        margin-top: 1.5rem
+        color: $lightgreytext
+        font-family: arial,sans-serif
+        font-weight: bold
+        font-size: 1.5rem
+    p 
+        margin: 0
+    span
+        text-transform: capitalize
+        font-weight: normal
+    nav
+        float: right
+        ul
+            list-style: none
+            overflow: hidden
+            margin: 0
+            padding: 0
+            li 
+                float: left
+                
+                margin-top: 1.5rem
+                &+li
+                    margin-right: 0
+                    margin-left: 1.5rem
+                a 
+                    display: block
+                    text-decoration: none
+                    font-family: arial,sans-serif
+                    font-size: 1.2rem
+                    font-weight: medium
+                    color: $lightgreytext
+    h1
+        width: 80%
+        margin: 50px auto 0
+        text-align: center
+        font-family: "brandon-grotesque",Helvetica
+        font-weight: bold
+        font-size: 3rem
+        color: $lightgreytext
+    p
+        width: 60%
+        margin: 20px auto 80px
+        text-align: center
+        color: $lightgreytext
+        line-height: 1.6rem
+        font-family: "brandon-grotesque",sans-serif
+        font-weight: normal
+        font-size: 1.2rem
+    .btn-container
+        text-align: center
+        width: 80%
+        margin: 0 auto
+    button
+        &:first-child
+            margin-right: 20px
+        &:last-child
+            margin-left: 20px
+    .arrow
+        width: 37px
+        height: 38px
+        margin: 20px auto 100px
+.skills
+    background-color: $lightgreybg
+    height: 200px
+    box-sizing: border-box
+    .skill
+        width: 32%
+        border-radius: 10px
+        margin-top: -30px
+        background-color: white
+        float: left
+        position: relative
+        z-index: 1
+        text-align: center
+        padding: 30px
+        box-sizing: border-box
+        box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25)
+        h2
+            margin-bottom: 0
+            text-transform: capitalize
+        p
+            margin: 0 0 30px
+            line-height: 1.3rem
+        &+ .skill
+            margin-left: 2%
+.our-work
+    background-color: $darkgreybg
+    background-image: url(images/logos.png)
+    background-repeat: no-repeat
+    background-position: 50% 100px
+    padding: 40px 50px 0
+    overflow: hidden
+    position: relative
+    height: 850px
+    h1
+        text-align: center
+        text-transform: capitalize
+        font-size: 2.2rem
+        font-weight: bold
+        width: 200px
+        color: white
+        margin: 0px auto 100px
+    .circles
+        width: 47px
+        margin: 0 auto 50px
+        //background-color: pink
+        overflow: hidden
+        .circle
+            width: 9px
+            height: 9px
+            /* border: 1px solid white; */
+            border-radius: 50%
+            background-color: #333
+            float: left
+            margin-left: 10px
+        & :first-child
+            background-color: $green-color
+            margin-left: 0px
+    .work
+        //height: 550px
+        //float: left
+        position: absolute
+        //top: 50%
+        overflow: hidden
+        box-shadow: 0px 0px 57px 0px rgba(4,6,9,0.25)
+    .first
+        height: 500px
+        width: 600px
+        left: 0%
+        bottom: 0%
+        margin-left: 30px
+    .second
+        z-index: 2
+        height: 599px
+        width: 766px
+        left: 50%
+        margin-left: -383px
+        bottom: 0%
+    .third
+        height: 500px
+        width: 600px
+        right: 0%
+        bottom: 0%
+        margin-right: 30px
+        img
+            width: 100%
+.get-in-touch
+    height: 250px
+    background-color: #555
+    padding: 30px 0
+    text-align: center
+    h2
+        text-transform: capitalize
+        text-align: center
+        margin: auto
+        width: 60%
+        color: $lightgreytext
+        font-family: arial,sans-serif
+        font-size: 2.5rem
+        font-weight: bold
+    p 
+        text-align: center
+        width: 60%
+        margin: 30px auto 40px
+        color: $lightgreytext
+        line-height: 1.9rem
+        font-size: 1.5rem
+    button
+        margin: 0
+        margin: auto
+footer
+    background-color: $lightgreybg
+    padding: 1.2rem 0
+    p 
+        text-align: center
+        max-width: 45%
+        text-transform: capitalize
+        margin: auto
+        span
+            text-transform: capitalize
+            color: $green-color
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

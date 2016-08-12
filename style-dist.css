@@ -1,0 +1,153 @@
+/* */
+/*header
+    height: 763px
+    background:
+        image:url(images/banner_background.jpg)
+        size:cover
+    .wrapper
+        width: 960px
+        margin: 0 auto */
+body {
+  margin: 0;
+}
+
+button[type=button] {
+  border: none;
+  height: 32px;
+  width: 130px;
+  color: #FFF7E3;
+  text-align: center;
+  border-radius: 16px;
+  text-transform: capitalize;
+}
+
+button[type=button]:first-child {
+  margin-right: 20px;
+}
+
+button[type=button]:last-child {
+  margin-left: 20px;
+}
+
+.btn-green {
+  background-color: #7AC483;
+}
+
+.btn-grey {
+  background-color: rgba(250, 250, 250, 0.35);
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  background-image: url(images/banner_background.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+header .wrapper {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header .wrapper .logo {
+  width: 30%;
+  float: left;
+  margin-top: 1.5rem;
+  color: #FFF7E3;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+header .wrapper .logo p {
+  margin: 0;
+}
+
+header .wrapper .logo span {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+header .wrapper nav {
+  float: right;
+}
+
+header .wrapper nav ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+header .wrapper nav ul li {
+  float: left;
+  margin-top: 1.5rem;
+}
+
+header .wrapper nav ul li + li {
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+header .wrapper nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 1.2rem;
+  font-weight: medium;
+  color: #FFF7E3;
+}
+
+header .wrapper .clearfix {
+  clear: both;
+}
+
+header .wrapper h1 {
+  width: 80%;
+  margin: 50px auto 0;
+  text-align: center;
+  font-family: "brandon-grotesque",Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #FFF7E3;
+}
+
+header .wrapper p {
+  width: 60%;
+  margin: 20px auto 100px;
+  text-align: center;
+  color: #FFF7E3;
+  line-height: 1.6rem;
+  font-family: "brandongrotesque",sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+header .wrapper .btn-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header .wrapper .arrow {
+  width: 37px;
+  height: 38px;
+  margin: 20px auto 0;
+}
+
+.skills {
+  background-color: #F2F1F8;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.skills .skill {
+  width: 30%;
+  border-radius: 4px;
+  margin-top: -30px;
+  background-color: #eee;
+  float: left;
+}
